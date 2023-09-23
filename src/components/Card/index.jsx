@@ -8,7 +8,7 @@ const index = ({ image, desc, name }) => {
       </div>
       <div className="card-info-container">
         <p>{desc}</p>
-        <b>-{name}</b>
+        <b style={{ marginTop: "10px" }}>-{name}</b>
       </div>
     </section>
   );

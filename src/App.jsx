@@ -14,7 +14,7 @@ import Image4 from "./assets/img_4.jpg";
 import { useState, useEffect } from "react";
 
 const App = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  /*  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (window.innerWidth <= 750) {
@@ -84,7 +84,7 @@ const App = () => {
         <FootNavbar />
       </div>
     );
-  }
+  }*/
 
   return (
     <div className="main-container">
@@ -104,25 +104,25 @@ const App = () => {
       </div>
       <div className="leader-container">
         <div className="leader-title">
-          <h1>Leaders</h1>
+          <h1>Meetings</h1>
         </div>
         <section className="cards-container">
           <Card
             image={Image1}
-            name={"David Kachi"}
+            name={" Power House"}
             desc={"whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"}
           />
           <div className="mini-cards-container">
             <Card
               image={Image2}
-              name={"David Kachi"}
+              name={" Revival Hour"}
               desc={
                 "whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"
               }
             />
             <Card
               image={Image4}
-              name={"David Kachi"}
+              name={" Hour of Victory"}
               desc={
                 "whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"
               }
@@ -130,7 +130,7 @@ const App = () => {
           </div>
           <Card
             image={Image3}
-            name={"David Kachi"}
+            name={" Day of Resurrection"}
             desc={"whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"}
           />
         </section>
