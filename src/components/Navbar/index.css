@@ -1,0 +1,124 @@
+.main-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  font-family: "Roboto";
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Skranji";
+  cursor: pointer;
+  color: #fff;
+}
+
+.logo-container h1:after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 4px;
+  background: #fff;
+  border-radius: 0px;
+  position: relative;
+}
+
+.logo-container i {
+  margin-right: 10px;
+  font-size: 28px;
+  position: relative;
+  top: -2px;
+  color: #ea580c;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-container div {
+  margin: 0px 10px;
+}
+
+.links-container div a {
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+.links-container div a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background: #fff;
+  border-radius: 0px;
+  position: relative;
+  margin-top: 4px;
+  transition: 0.3s ease-in-out;
+}
+
+.links-container div a:hover:after {
+  width: 80%;
+}
+
+.btn-container {
+  border: 3px solid #fff;
+  border-radius: 12px;
+}
+
+.btn-container button {
+  padding: 13px 8px;
+  border-radius: 12px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Kenia";
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-container button i {
+  position: relative;
+  top: 1px;
+  margin-left: 5px;
+  color: #eab308;
+}
+
+.btn-container button b {
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width: 750px) {
+  .main-nav-container {
+    padding: 10px 0px;
+  }
+
+  .logo-container {
+    justify-content: left;
+    padding: 0px 10px;
+  }
+
+  .links-container {
+    display: none;
+  }
+
+  .btn-container {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+.banner-container {
+  width: auto;
+  min-height: 35vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../../assets/img_5.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  top: -280px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+}
+
+.banner-container h1 {
+  color: #fff;
+  font-family: "Roboto";
+  margin: auto auto;
+}
+
+@media (max-width: 750px) {
+  .banner-container {
+    top: -240px;
+    min-height: 40vh;
+  }
+  .banner-container h1 {
+    font-size: 12px;
+  }
+}
