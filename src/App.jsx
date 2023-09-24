@@ -5,6 +5,7 @@ import ImageCarousel from "./components/ImageCarousel/";
 import Card from "./components/Card/";
 import Banner from "./components/Banner/";
 import FootNavbar from "./components/FootNavbar/";
+import Slider from "./components/Slider";
 
 import Image1 from "./assets/img_1.jpg";
 import Image2 from "./assets/img_2.jpg";
@@ -138,7 +139,7 @@ const App = () => {
       <div>
         <Banner />
       </div>
-
+      <Slider />
       <FootNavbar />
     </div>
   );
