@@ -12,13 +12,13 @@
 .main-slider-container div {
   width: 50%;
   text-align: center;
-  margin: 0 20px;
 }
 
 .main-slider-info-container {
   font-family: "Roboto";
   padding: 10px;
   display: block;
+  transform: translateX(30px);
 }
 
 .main-slider-info-container h1 {
@@ -31,7 +31,10 @@
 
 .slider-container {
   position: relative;
-  display: none;
+  display: block;
+  width: 300px;
+  height: 300px;
+  transform: translateX(200px);
 }
 
 .slider-container div {
