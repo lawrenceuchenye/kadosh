@@ -63,6 +63,7 @@
     position: relative;
     height: 300px;
     width: 300px;
+    transform: translateY(-60px);
   }
 
   .main-slider-info-container {
