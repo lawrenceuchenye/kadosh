@@ -81,6 +81,7 @@
     position: relative;
     height: 400px;
     width: 100%;
+    transform: translateX(25px);
     margin-bottom: 80px;
   }
 
@@ -93,7 +94,6 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    left: -10px;
   }
 
   .main-slider-container div h1 {
@@ -123,6 +123,6 @@
     font-family: "Roboto";
     padding: 10px;
     display: block;
-    transform: translateX(0px);
+    transform: translateX(10px);
   }
 }
