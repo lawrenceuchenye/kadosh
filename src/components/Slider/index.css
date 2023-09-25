@@ -118,4 +118,11 @@
   .mobile-slider-container {
     width: auto;
   }
+
+  .main-slider-info-container {
+    font-family: "Roboto";
+    padding: 10px;
+    display: block;
+    transform: translateX(0px);
+  }
 }
