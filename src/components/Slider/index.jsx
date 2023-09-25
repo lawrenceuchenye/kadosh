@@ -6,7 +6,7 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCube, Pagination } from "swiper/modules";
+import { EffectCube, EffectCards } from "swiper/modules";
 
 import Img1 from "../../assets/kia_1.png";
 import Img2 from "../../assets/sonship.jpg";
@@ -28,7 +28,7 @@ const index = () => {
         <Swiper
           effect={"cards"}
           grabCursor={true}
-          modules={[]}
+          modules={[EffectCards]}
           className="swiper-container"
         >
           <SwiperSlide>
@@ -80,7 +80,7 @@ const index = () => {
             }}
             pagination={true}
             grabCursor={true}
-            modules={[EffectCube, Pagination]}
+            modules={[EffectCube]}
             className="swiper-container"
           >
             <SwiperSlide>
