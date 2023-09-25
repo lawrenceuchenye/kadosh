@@ -20,9 +20,9 @@ const index = () => {
   return (
     <div className="main-slider-container">
       <div className="main-slider-info-container">
-        <p>checkout our upcoming events fliers.</p>
+        <p>checkout our upcoming events.</p>
         <h1>Shaking the world a step at a time.</h1>
-        <p>kadosh global</p>
+        <p>kadosh global,take a swipe at our fliers</p>
       </div>
       <div className="slider-container">
         <Swiper
