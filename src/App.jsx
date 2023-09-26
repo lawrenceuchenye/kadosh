@@ -38,32 +38,12 @@ const App = () => {
           <h1>Meetings</h1>
         </div>
         <section className="cards-container">
-          <Card
-            image={Image1}
-            name={" Power House"}
-            desc={"whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"}
-          />
+          <Card image={Image1} name={" OGUN STATE INVASION"} />
           <div className="mini-cards-container">
-            <Card
-              image={Image2}
-              name={" Revival Hour"}
-              desc={
-                "whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"
-              }
-            />
-            <Card
-              image={Image4}
-              name={" Hour of Victory"}
-              desc={
-                "whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"
-              }
-            />
+            <Card image={Image2} name={" EKKLESIA CONVERGENCE"} />
+            <Card image={Image4} name={" EBONYI STATE APOSTOLIC INVASION"} />
           </div>
-          <Card
-            image={Image3}
-            name={" Day of Resurrection"}
-            desc={"whwjeododkd dkrorororo xoxox.spsps.s soa.s.s s.w.w ewpwpwp"}
-          />
+          <Card image={Image3} name={" MBAISE MIRACLE CRUSADE"} />
         </section>
       </div>
       <div>
