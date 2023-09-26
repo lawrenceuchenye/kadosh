@@ -21,7 +21,7 @@ const App = () => {
       <div className="main-info-container">
         <div className="info-container">
           <p>come experience revival</p>
-          <h1>Kadosh Global witness christ power in full force.</h1>
+          <h1>Kadosh Global: witness christ power in full force.</h1>
           <p>come hungry and leave with greater hunger.</p>
           <button className="btn">
             <a href="https://selar.co/m/IFCONFERENCE23">

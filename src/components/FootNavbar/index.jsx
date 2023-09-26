@@ -6,7 +6,7 @@ const index = () => {
     <div className="foot-navbar-container">
       <div className="nav-logo-container">
         <h1>
-          Kadosh <span>Global..</span>
+          Kadosh <span>Global</span>
         </h1>
       </div>
       <div className="link-container">
