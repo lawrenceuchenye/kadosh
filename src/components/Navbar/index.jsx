@@ -19,9 +19,11 @@ const index = () => {
         </div>
       </div>
       <div className="btn-container">
-        <button>
-          <b>Tickets!</b> <i className="fa fa-ticket"></i>
-        </button>
+        <a href="https://selar.co/m/IFCONFERENCE23">
+          <button>
+            <b>Tickets!</b> <i className="fa fa-ticket"></i>
+          </button>
+        </a>
       </div>
     </div>
   );

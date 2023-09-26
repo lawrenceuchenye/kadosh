@@ -72,6 +72,11 @@
 .btn-container {
   border: 3px solid #fff;
   border-radius: 12px;
+  outline: none;
+}
+
+.btn-container a {
+  text-decoration: none;
 }
 
 .btn-container button {
@@ -89,6 +94,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  outline: none;
 }
 
 .btn-container button i {
