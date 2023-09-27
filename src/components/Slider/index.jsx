@@ -15,6 +15,7 @@ import Img4 from "../../assets/tp.png";
 import Img5 from "../../assets/pt.png";
 import Img6 from "../../assets/anniv.png";
 import Img7 from "../../assets/4months.png";
+import Img8 from "../../assets/reg.png";
 
 const index = () => {
   return (
@@ -64,6 +65,11 @@ const index = () => {
           <SwiperSlide>
             <div>
               <img src={Img7} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img src={Img8} />
             </div>
           </SwiperSlide>
         </Swiper>
@@ -116,6 +122,11 @@ const index = () => {
             <SwiperSlide>
               <div>
                 <img src={Img7} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img src={Img8} />
               </div>
             </SwiperSlide>
           </Swiper>
